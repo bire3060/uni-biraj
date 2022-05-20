@@ -1,0 +1,30 @@
+//country add
+export const ADD_COUNTRY = "ADD_COUNTRY";
+export const REMOVE_COUNTRY = "REMOVE_COUNTRY";
+
+//categoreis
+export const ADD_CATEGORIES = "ADD_CATEGORIES";
+export const REMOVE_CATEGORIES = "REMOVE_CATEGORIES";
+
+//degree level
+export const ADD_DEGREE_LEVEL = "ADD_DEGREE_LEVEL";
+export const REMOVE_DEGREE_LEVEL = "REMOVE_DEGREE_LEVEL";
+
+//duration
+export const ADD_DURATION = "ADD_DURATION";
+export const REMOVE_DURATION = "REMOVE_DURATION";
+
+//international fee
+export const ADD_INTERNATIONAL_FEE = "ADD_INTERNATIONAL_FEE";
+export const REMOVE_INTERNATIONAL_FEE = "REMOVE_INTERNATIONAL_FEE";
+
+//STUDY_MODE
+export const ADD_STUDY_MODE = "ADD_STUDY_MODE";
+//STUDY_LOAD
+export const ADD_STUDY_LOAD = "ADD_STUDY_LOAD";
+
+export const ADD_COUNT = "ADD_COUNT";
+export const RESET_COURSE_DATA = "RESET_COURSE_DATA";
+export const REMOVE_STORE_FIELDS = "REMOVE_STORE_FIELDS";
+
+export const COURSE_COUNT = "COURSE_COUNT";

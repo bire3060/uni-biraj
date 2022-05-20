@@ -1,0 +1,60 @@
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+.btnFacebook {
+  width: 250px;
+  height: 40px;
+  border-radius: 50px;
+  background: #fff;
+  color: rgb(55 65 81);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 500;
+  border: 0px transparent;
+  margin: 5px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.large-heading {
+  @apply text-3xl md:text-4xl;
+}
+.medium-heading {
+  @apply font-bold text-lg;
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr 140px 250px;
+  }
+}
+h2 {
+  line-height: 28px;
+  margin-bottom: 5px;
+  --tw-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+.mainImp {
+  animation: example 5s ease-in;
+}
+
+@keyframes example {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.mainPageManagement {
+  max-width: 90rem;
+  /* width: 100%; */
+  margin: auto;
+}

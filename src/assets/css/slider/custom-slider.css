@@ -1,0 +1,16 @@
+.individual-slide {
+  height: 250px;
+  width: 250px;
+}
+
+.slider-arrow {
+  transform: translateY(-50%);
+  transition: 0.3s ease;
+}
+.slider-arrow-enabled {
+  box-shadow: 0 0 1px 2px rgb(230, 230, 230);
+}
+
+.slider-arrow-enabled:hover {
+  box-shadow: 0 0 2px 4px rgb(230, 230, 230);
+}

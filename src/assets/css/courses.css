@@ -1,0 +1,12 @@
+.courses-filter {
+  flex: 1;
+  min-width: 250px;
+}
+
+.courses-result {
+  flex: 3;
+}
+
+.max-filter-height {
+  height: 950px;
+}

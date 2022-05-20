@@ -1,0 +1,6 @@
+.objcomp {
+  visibility: hidden;
+}
+.hovcomp:hover .objcomp {
+  visibility: visible;
+}

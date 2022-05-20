@@ -1,0 +1,39 @@
+#customer {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  #customer {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+#customer td,
+#customer th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#customer tr:nth-child(even) {
+  background-color: rgb(236, 240, 239);
+}
+
+tbody {
+  height: 50%;
+  overflow-y: auto;
+}
+
+#customer th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #37206e;
+  color: white;
+}
+
+.secondrow {
+  width: 60%;
+}

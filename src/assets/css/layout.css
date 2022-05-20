@@ -1,0 +1,64 @@
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.main-container {
+  min-height: calc(100vh - 64px);
+}
+
+.sidebar-right-arrow {
+  transition: transform 0.3s ease;
+}
+
+/* for sidebar in laptops */
+@media only screen and (min-width: 1024px) {
+  #sidebar {
+    height: calc(100vh - 64px);
+  }
+}
+
+div.rotate-up {
+  transform: rotate(0);
+}
+div.rotate-down {
+  transform: rotate(90deg);
+}
+.rotate-up.animate {
+  animation: rotate-up 0.3s ease;
+}
+.rotate-down.animate {
+  animation: rotate-down 0.3s ease;
+}
+
+@keyframes rotate-down {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes rotate-up {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}

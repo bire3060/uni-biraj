@@ -1,0 +1,4 @@
+.getStartedBorder:focus {
+border: 3px solid #F33968;
+transition: all ease-out;
+}

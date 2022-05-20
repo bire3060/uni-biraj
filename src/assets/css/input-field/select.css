@@ -1,0 +1,15 @@
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  background-image: url("../../images/icons/select-dropdown-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 30px 10px;
+  background-position: right;
+}

@@ -1,0 +1,2 @@
+export const ADD_CAT_COURSE = "ADD_CAT_COURSE";
+export const REMOVE_CAT_COURSE = "REMOVE_CAT_COURSE";

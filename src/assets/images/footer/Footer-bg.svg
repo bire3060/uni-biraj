@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="440" viewBox="0 0 1920 440">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Base" width="1414" height="440" transform="translate(0 7750)" fill="#1f1744"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_1264" data-name="Rectangle 1264" width="1396" height="620" transform="translate(300 7082)" fill="#1f1744"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5127" data-name="Group 5127" transform="translate(0 -7750)">
+    <rect id="Base-2" data-name="Base" width="1920" height="440" transform="translate(0 7750)" fill="#1f1744"/>
+    <g id="Mask_Group_5" data-name="Mask Group 5" clip-path="url(#clip-path)">
+      <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(-300 668)" clip-path="url(#clip-path-2)">
+        <path id="Path_8290" data-name="Path 8290" d="M1873.5,0C2891.637,0,3687,581.806,3687,1299.5S2861.637,2599,1843.5,2599,0,2017.194,0,1299.5,855.363,0,1873.5,0Z" transform="translate(-1739 5088)" fill="#261b5c"/>
+        <ellipse id="Ellipse_2103" data-name="Ellipse 2103" cx="846.5" cy="516.5" rx="846.5" ry="516.5" transform="translate(-1046 6388)" fill="#930043"/>
+      </g>
+    </g>
+  </g>
+</svg>

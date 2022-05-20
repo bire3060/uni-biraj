@@ -1,0 +1,89 @@
+.swiper-container {
+  width: 100%;
+}
+
+.mySwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.mentor-slider {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: blue;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.27);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.27);
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 10px;
+  text-transform: none !important;
+  letter-spacing: 0;
+  text-transform: none;
+  font-variant: initial;
+  line-height: 1;
+  font-weight: bold;
+}
+.swiper-button-next {
+  position: absolute;
+  right: 5px;
+}
+.swiper-button-prev {
+  left: 5px;
+}
+.mySwiper.swiper-container {
+  width: 320px;
+  height: 160px;
+}
+.student-job-slider.swiper-container {
+  height: 260px;
+}
+
+@media screen and (min-width: 640px) {
+  .mySwiper.swiper-container {
+    width: 530px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mySwiper.swiper-container {
+    width: 980px;
+    padding-left: 0;
+  }
+}

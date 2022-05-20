@@ -1,0 +1,22 @@
+/* .modalAlignment {
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .modalAlignment {
+    right: 12%;
+    left: 12%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .modalAlignment {
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .modalAlignment {
+    padding: 20px;
+  }
+} */

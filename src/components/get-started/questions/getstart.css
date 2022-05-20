@@ -1,0 +1,6 @@
+.degree-act:hover {
+  box-shadow: 0 0 5px solid gray;
+  border-color: crimson;
+  background-color: rgb(235, 221, 224);
+  margin-top: 0;
+}

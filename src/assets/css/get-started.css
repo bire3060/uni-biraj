@@ -1,0 +1,11 @@
+.proceed-button {
+  box-shadow: 0 1px 4px crimson;
+}
+.proceed-button:hover {
+  box-shadow: 0 2px 8px crimson;
+}
+
+.degree-active-card {
+  transform: translateY(-20px);
+  @apply border-pink2;
+}

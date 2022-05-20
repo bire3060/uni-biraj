@@ -1,0 +1,58 @@
+.uni-homepage {
+  background-image: url("../images/home/mainpage/main-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+.uni-homepage2 {
+  background-image: url("../images/home/mainpage/institute.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.uni-footer {
+  background-image: url("../images/footer/Footer-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.max-height-faq {
+  max-height: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+  .max-height-faq {
+    max-height: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .personalized-matchmaker-container {
+    height: 222px;
+    overflow: hidden;
+  }
+
+  .matchmaker-image {
+    transform: scale(1.6);
+  }
+  .max-height-faq {
+    max-height: 70px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .gift-package {
+    transform: scale(1.24);
+    transform-origin: top;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .matchmaker-image {
+    transform: scale(1.32);
+  }
+  .gift-package {
+    transform: scale(1.14);
+  }
+}
